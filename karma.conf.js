@@ -7,7 +7,7 @@ module.exports = function(config) {
       'lib/handlebars/handlebars.js',
       'lib/ember/ember.js',
       'scripts/app.js',
-      'scripts/templates/*.hbs',
+      'templates/*.hbs',
       'tests/*.js'
     ],
 
