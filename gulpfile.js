@@ -8,5 +8,5 @@ gulp.task('templates', function(){
       outputType: 'browser'
     }))
     .pipe(concat('templates.js'))
-    .pipe(gulp.dest('src/ratpack/public/scripts/templates/'));
+    .pipe(gulp.dest('src/ratpack/public/templates/'));
 });
