@@ -2,3 +2,4 @@ src/ratpack/public/lib
 src/ratpack/public/templates/*.js
 .gradle
 node_modules
+.gradletasknamecache
