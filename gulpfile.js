@@ -3,7 +3,7 @@ var concat = require('gulp-concat');
 var gulp = require('gulp');
 
 gulp.task('templates', function(){
-  gulp.src(['src/ratpack/public/scripts/templates/*.hbs'])
+  gulp.src(['src/ratpack/public/templates/**/*.hbs'])
     .pipe(handlebars({
       outputType: 'browser'
     }))
