@@ -1,2 +1,3 @@
 src/ratpack/public/lib
+src/ratpack/public/scripts/templates/*.js
 .gradle
